@@ -31,3 +31,29 @@ Create and activate a virtual environment for the project:
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+### 3. Install Dependencies
+Install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Set Up Database
+Make sure your database is set up and migrate the models:
+
+```bash
+python manage.py migrate
+```
+
+### 5. Create Superuser (Optional)
+Create a superuser to access the Django admin panel:
+
+```bash
+python manage.py createsuperuser
+```
+### 6. Run the Server
+Start the Django development server:
+
+```bash
+python manage.py runserver
+```
+The API will be available at http://127.0.0.1:8000/api/faqs/.
