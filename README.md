@@ -23,6 +23,6 @@ Clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/your-username/faq-project.git
 cd faq-project
-
-2. Set Up a Virtual Environment
+```
+### 2. Set Up a Virtual Environment
 Create and activate a virtual environment for the project:
