@@ -5,6 +5,9 @@ This project is a Django-based API for managing Frequently Asked Questions (FAQ)
 **Features**
 
 1.Multilingual FAQ support (English, Hindi, Bengali)
+
 2.WYSIWYG editor integration for rich text content
+
 3.API to fetch FAQs using Django Rest Framework
+
 4.Redis caching for improved performance
