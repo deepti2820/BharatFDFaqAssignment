@@ -77,6 +77,7 @@ curl http://127.0.0.1:8000/api/faqs/?lang=en
 
  **WYSIWYG Editor**:
    - Instructions for adding `django-ckeditor` to `INSTALLED_APPS` are provided with clear code snippets.
+     
  **Environment Variables**:
    - A section on using environment variables is added, with instructions to securely load configuration values using `python-dotenv`.
    - A practical example of how to use environment variables in `settings.py` is given, which avoids hardcoding sensitive data directly into the code.
