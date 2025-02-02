@@ -26,3 +26,8 @@ cd faq-project
 ```
 ### 2. Set Up a Virtual Environment
 Create and activate a virtual environment for the project:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
